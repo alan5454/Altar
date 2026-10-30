@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altar de Día de Muertos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a0933;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff9f1c;
+            margin-bottom: 5px;
+        }
+
+        p.subtitulo {
+            color: #e56b6f;
+            font-size: 1.1em;
+            margin-top: 0;
+        }
+
+        .altar-container {
+            max-width: 650px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .nivel {
+            padding: 15px;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        .nivel h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        .nivel ul {
+            margin: 0 0 15px 0;
+            padding-left: 25px;
+        }
+
+        .nivel-1 {
+            width: 60%;
+            margin: 0 auto;
+            background-color: #ffbf69;
+            color: #1a0933;
+        }
+
+        .nivel-2 {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #ff9f1c;
+            color: #1a0933;
+        }
+
+        .nivel-3 {
+            width: 100%;
+            background-color: #e56b6f;
+            color: #ffffff;
+        }
+
+        .imagen-nivel {
+            width: 100%;
+            max-height: 220px;
+            object-fit: cover;
+            border-radius: 6px;
+            display: block;
+        }
+
+        .elementos-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            max-width: 700px;
+            margin: 30px auto;
+        }
+
+        .tarjeta {
+            background-color: #2b1b4d;
+            border: 2px solid #ff9f1c;
+            border-radius: 8px;
+            padding: 15px;
+            width: 180px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        .icono {
+            font-size: 2em;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .tarjeta h3 {
+            margin: 5px 0;
+            color: #ffbf69;
+        }
+
+        .tarjeta p {
+            font-size: 0.85em;
+            color: #dddddd;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Ofrenda del Día de Muertos</h1>
+    <p class="subtitulo">Tradición para recordar a nuestros seres queridos</p>
+
+    <div class="altar-container">
+        <div class="nivel nivel-1">
+            <h3>Nivel 1: El Cielo</h3>
+            <ul>
+                <li>Retrato o fotografía del difunto</li>
+                <li>Imagen de los santos o divinidades</li>
+            </ul>
+            <img src="imagenes/lev1.jpg" alt="Representación del Nivel 1" class="imagen-nivel">
+        </div>
+
+        <div class="nivel nivel-2">
+            <h3>Nivel 2: El Purgatorio</h3>
+            <ul>
+                <li>Platillo favorito (ejemplo: mole con arroz, tamales)</li>
+                <li>Bebidas (ejemplo: tequila, agua, café)</li>
+                <li>Objetos personales (ejemplo: un libro, sombrero, juguete)</li>
+                <li>Pan de muerto y fruta de temporada</li>
+            </ul>
+            <img src="imagenes/lev2.jpg" alt="Representación del Nivel 2" class="imagen-nivel">
+        </div>
+
+        <div class="nivel nivel-3">
+            <h3>Nivel 3: La Tierra</h3>
+            <ul>
+                <li>Camino de flores de cempasúchil</li>
+                <li>Cruz de ceniza o sal</li>
+                <li>Veladoras en la base</li>
+                <li>Vaso con agua limpia</li>
+            </ul>
+            <img src="imagenes/lev3.jpg" alt="Representación del Nivel 3" class="imagen-nivel">
+        </div>
+    </div>
+
+    <h2>Elementos Tradicionales</h2>
+
+    <div class="elementos-grid">
+        <div class="tarjeta">
+            <span class="icono">🕯️</span>
+            <h3>Veladoras</h3>
+            <p>La luz que guía el camino de regreso a casa.</p>
+        </div>
+
+        <div class="tarjeta">
+            <span class="icono">🌼</span>
+            <h3>Cempasúchil</h3>
+            <p>Con su color y aroma marca el sendero para las almas.</p>
+        </div>
+
+        <div class="tarjeta">
+            <span class="icono">🍞</span>
+            <h3>Pan de Muerto</h3>
+            <p>Representa la fraternidad y el ciclo de la vida y la muerte.</p>
+        </div>
+
+        <div class="tarjeta">
+            <span class="icono">💀</span>
+            <h3>Calaveritas</h3>
+            <p>Recordatorio dulce de la presencia de la muerte en la vida.</p>
+        </div>
+
+        <div class="tarjeta">
+            <span class="icono">🖼️</span>
+            <h3>Fotografía</h3>
+            <p>Honra a la persona a quien está dedicada la ofrenda.</p>
+        </div>
+
+        <div class="tarjeta">
+            <span class="icono">📄</span>
+            <h3>Papel Picado</h3>
+            <p>Representa el aire y la alegría de la festividad.</p>
+        </div>
+    </div>
+
+</body>
+</html>
